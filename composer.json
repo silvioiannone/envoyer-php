@@ -1,0 +1,20 @@
+{
+    "name": "silvioiannone/envoyer-php",
+    "description": "Laravel Envoyer PHP client",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Silvio Iannone",
+            "email": "silvio@bloom.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SilvioIannone\\EnvoyerPhp\\": "src"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
